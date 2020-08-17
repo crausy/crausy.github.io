@@ -7,7 +7,7 @@ a:hover {
 		color: white;
 		text-decoration: none;
 		background-color: #725A61;
-		font-size: 25px;
+		font-size: 30px;
 		transition: 0.7s;
 		border: 2px;
 		border-radius: 8%;
@@ -24,20 +24,22 @@ body {
 	margin: 0;
 	color: black;
 	font-size: 17px;
-	line-height: 20px;
+	/*line-height: 20px;*/
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 header{
 	background-color: rgba(255,255,255,0.6);
+	/*background-image: url('../pics/monk-kesz.jpg');
+	background-repeat: no-repeat;*/
 	max-width: 1500px; width: 90%;
-	padding: 25px 15px;
+	padding: 25px 10px;
 	border: 3px solid black;
 	margin: 20px auto;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 25px;
-	line-height: 30px;
+	line-height: 50px;
 }
 
 nav{
@@ -50,7 +52,7 @@ nav{
 	text-align: center;
 	vertical-align: middle;
 	line-height:27px;
-	font-size: 22px;
+	font-size: 27px;
 }
 
 nav ul{ 
@@ -80,4 +82,7 @@ div p{
 	text-align: right;
 	text-decoration: underline;
 	font-size: 20px;
+}
+div .dlhosszu{
+	line-height: 30px;
 }
