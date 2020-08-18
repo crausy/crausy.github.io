@@ -18,7 +18,14 @@ a:hover {
 	transform: scale(2.0);
 	transition: 0.5s;
 }
-
+#szamlalo{
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: none;
+	transition: 0.0;
+	font-size: 0;
+}
 
 body {
 	background-image: url('../pics/bg.jpg');
